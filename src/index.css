@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #222;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: #1f2937;
+}
+
+.nav a {
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.nav a.active {
+  color: #fff;
+  font-weight: 600;
+}
+
+.container {
+  padding: 2rem;
+}
+
+dt {
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+dd {
+  margin: 0.25rem 0 0;
+}
+
+.error {
+  color: #b91c1c;
+}
